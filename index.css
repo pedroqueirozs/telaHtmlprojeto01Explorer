@@ -1,0 +1,53 @@
+  *{
+    margin: 0;
+    padding:0;
+  }
+
+  #hero {
+  width: 603px;
+  height: 579px;
+  left: 329px;
+  top: 35px;
+  margin:auto;
+  margin-bottom: 37px;
+  }
+  #hero img{
+    margin-bottom: 77px;
+  }
+  span , a {
+    color: #FF9900;
+  }
+  strong{
+    color: #FF9900;
+    font-weight: bold;
+
+  }
+  h1{
+    line-height: 56px;
+    font-size: 44px;
+    font-family: 'Inter', sans-serif;
+  }
+  body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  }
+  p{
+    color:#7D7987;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  /* Dentro do footer pegue um "a" que anterior a ele tenha um "a" */
+  footer a + a  {
+    margin-left: 28px;
+  }
+  #line{
+    border: 1px solid #ECEFF2;
+    margin:15px auto ;
+    width: 500px ;}
+    
+  #balls{
+      position: fixed;
+      bottom: 0px;
+    right: 0;
+    }
